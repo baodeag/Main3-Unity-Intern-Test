@@ -110,12 +110,3 @@ A separate timed game mode.
 - `Assets/Resources/gamesettings.asset`
   - Sets Time Attack duration to 60 seconds.
 
-## Verification
-
-The project was checked with:
-
-```bash
-dotnet build Assembly-CSharp.csproj
-```
-
-The build succeeds. The only remaining warning is a Unity deprecation warning for `FindObjectOfType`, which does not block compilation.
